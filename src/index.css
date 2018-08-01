@@ -12,6 +12,9 @@ body {
 }
 
 #root {
+  width: 50% !important;
+  margin: 0 auto;
+  position: relative;
   height: 100%;
 }
 

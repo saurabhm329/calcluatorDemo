@@ -50,7 +50,7 @@ class App extends React.Component {
     return (
       <div className="component-app">
         <InputValue value={this.state.inputValue}/>
-        <Display value={this.state.total || "0"} />
+        <Display value={this.state.total||this.state.next || "0"} />
         <CalculatorButton clickHandler={this.handleClick} />
       </div>
     );

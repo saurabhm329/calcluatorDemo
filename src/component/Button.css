@@ -21,7 +21,7 @@
   margin-right: 0;
 }
 
-.component-button.orange button {
-  background-color: #f5923e;
+.component-button.gray button {
+  background-color:rgb(189, 190, 195);
   color: white;
 }
